@@ -32,7 +32,7 @@ npm install @openzeppelin/contracts
 2. Copy and paste the contract code into a new file (e.g., `DegenToken.sol`).
 3. Compile the contract in Remix.
 4. Deploy the contract to your desired network:
-   - Ensure the environment is set to "Injected Web3" for Metamask integration.
+   - Ensure the environment is set to "Injected Provider" for Metamask integration.
    - Deploy the contract.
 5. Interact with the contract:
    - **Mint tokens**: Mint tokens to your address (only the contract owner can mint).
