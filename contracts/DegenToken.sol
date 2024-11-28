@@ -39,6 +39,14 @@ contract DegenToken is ERC20, Ownable {
         emit TokensBurned(msg.sender, amount);
     }
 
+    // Transfer tokens
+    function transfer(address recipient, uint256 amount) public override returns (bool) {
+        require(amount > 0, "Amount must be greater than zero");
+        require(balanceOf(msg.sender) >= amount, "Insufficient balance");
+        super.transfer(recipient, amount);
+        return true;
+    }
+
     // Redeem an item from the shop
     function redeem(string memory itemId) external {
         Item memory item = shop[itemId];

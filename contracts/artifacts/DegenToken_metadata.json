@@ -427,7 +427,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "to",
+						"name": "recipient",
 						"type": "address"
 					},
 					{
@@ -534,9 +534,6 @@
 				"totalSupply()": {
 					"details": "See {IERC20-totalSupply}."
 				},
-				"transfer(address,uint256)": {
-					"details": "See {IERC20-transfer}. Requirements: - `to` cannot be the zero address. - the caller must have a balance of at least `amount`."
-				},
 				"transferFrom(address,address,uint256)": {
 					"details": "See {IERC20-transferFrom}. Emits an {Approval} event indicating the updated allowance. This is not required by the EIP. See the note at the beginning of {ERC20}. NOTE: Does not update the allowance if the current allowance is the maximum `uint256`. Requirements: - `from` and `to` cannot be the zero address. - `from` must have a balance of at least `amount`. - the caller must have allowance for ``from``'s tokens of at least `amount`."
 				},
@@ -609,11 +606,11 @@
 			]
 		},
 		"contracts/DegenToken.sol": {
-			"keccak256": "0x9d36b147e2991b3a1c3a7c5b021ecfacc6fef298b87fc653b599c4697193c9f3",
+			"keccak256": "0x67fe94e04f2e22791fe52c7b0b4d5e4438143612eddbbc7a199a6812f187f285",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ff3c466c1bbfb8c4ba30d1af45284b7fbf059288128bbb2d4e917560d575485c",
-				"dweb:/ipfs/QmVvcw2GG44v69YxBrEjbrGHzy5RSiFAUrBbF8YY4oMyB8"
+				"bzz-raw://dca2d68f3fcc22f89453ac0c8bf345e51705f5716f29a6ee6b91a52e6f2b48d0",
+				"dweb:/ipfs/QmV2nw219prb7cJBo7sd9v5UVm5oF5mcdDM2ixZDC12eAF"
 			]
 		}
 	},
