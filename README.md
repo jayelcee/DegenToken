@@ -13,6 +13,8 @@ The core features of this contract are:
 4. **Burning Tokens**: Players can burn tokens they own.
 5. **Balance Checking**: Players can check their token balance at any time.
 
+Video Demo: https://www.loom.com/share/053bd76d6db6473dab159fc2f2eefb87
+
 ## Getting Started
 
 ### Installing
